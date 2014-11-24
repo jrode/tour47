@@ -1,11 +1,11 @@
-package main
+package gorunson
 
 import (
     "fmt"
     "runtime"
 )
 
-func main() {
+func os() {
     fmt.Print("Go runs on ")
     switch os := runtime.GOOS; os {
     case "darwin":
