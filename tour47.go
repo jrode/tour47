@@ -1,4 +1,4 @@
-package gorunson
+package tour47
 
 import (
     "fmt"
